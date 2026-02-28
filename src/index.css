@@ -109,6 +109,12 @@ body {
   border-color: rgba(59, 130, 246, 0.4);
 }
 
+/* Show number input spinners on mobile */
+#user-input input[type="number"]::-webkit-outer-spin-button,
+#user-input input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
 #result {
   max-width: 55rem;
   margin: 2rem auto;
@@ -228,8 +234,8 @@ body {
   }
 
   #result {
-    margin: 1.5rem;
-    padding: 1.5rem;
+    margin: 1.5rem 1rem;
+    padding: 1.5rem 1rem;
     font-size: 0.85rem;
   }
 
