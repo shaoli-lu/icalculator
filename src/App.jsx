@@ -6,10 +6,10 @@ import Results from './components/Results.jsx';
 
 function App() {
   const [userInput, setUserInput] = useState({
-    initialInvestment: 10000,
-    annualInvestment: 1200,
-    expectedReturn: 6,
-    duration: 10,
+    initialInvestment: 100000,
+    annualInvestment: 0,
+    expectedReturn: 15,
+    duration: 30,
   });
 
   const inputIsValid = userInput.duration >= 1;
