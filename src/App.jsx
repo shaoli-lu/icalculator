@@ -8,7 +8,7 @@ function App() {
   const [userInput, setUserInput] = useState({
     initialInvestment: 100000,
     annualInvestment: 0,
-    expectedReturn: 15,
+    expectedReturn: 10.3,
     duration: 30,
   });
 
