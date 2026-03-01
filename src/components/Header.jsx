@@ -3,7 +3,7 @@ import logo from '../assets/iCalculator3.png';
 export default function Header() {
   return (
     <header id="header">
-      <img src={logo} alt="Logo showing a money bag" />
+      <img src={logo} alt="Logo showing iCalculator logo" />
       <h1>Investment Calculator</h1>
     </header>
   );
